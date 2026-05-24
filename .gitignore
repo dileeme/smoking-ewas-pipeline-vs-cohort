@@ -1,0 +1,25 @@
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rout
+
+# Data — never commit raw IDATs or processed objects
+data/raw/
+data/processed/
+data/cache/
+
+# Results — generated outputs, not source
+results/figures/
+results/tables/
+results/*.rds
+results/*.RData
+
+# Reports — knitted outputs only; keep .Rmd source
+reports/*.html
+reports/*.pdf
+reports/*.docx
+
+# OS
+.DS_Store
+Thumbs.db
